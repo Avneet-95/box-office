@@ -1,0 +1,20 @@
+.result {
+  font-size: 18px;
+  margin-top: auto;
+}
+
+.loading {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  border-radius: 50%;
+  border: 3px solid rgba(0, 0, 0, 0.1);
+  border-top-color: #4caf50;
+  animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
